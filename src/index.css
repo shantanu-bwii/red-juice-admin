@@ -1,0 +1,172 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainheading_11 {
+  font-family: poppins;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 26px;
+}
+
+.background_121 {
+  width: 99%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/5096160.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login_panel_box11 {
+  width: 25rem;
+  height: 15rem;
+  background-image: linear-gradient(180deg, #f0850699, #e4c019ad);
+  border-radius: 15px;
+  box-shadow: 7px 12px 14px 10px #0000004f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 44px;
+  color: white;
+  background-image: linear-gradient(45deg, #db4513, #fba900);
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: poppins;
+  display: block;
+  margin-bottom: 26px;
+}
+
+button:hover {
+  background-image: linear-gradient(45deg, #e8580c, #f09509);
+  box-shadow: 2px 2px 9px 6px #00000021;
+  transition: 0.5s;
+}
+
+input[type="password"] {
+  display: flex;
+  margin: auto;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 19rem;
+}
+
+input[type="password"]::placeholder {
+  color: #d6d2d2;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  margin: 9px 0px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.dashboard_box_2233{
+  width: 25rem;
+  height: 20rem;
+  background-image: linear-gradient(180deg, #f0850699, #e4c019ad);
+  border-radius: 15px;
+  box-shadow: 7px 12px 14px 10px #0000004f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainheading_1122{
+  font-family: poppins;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+input[type="text"]::placeholder {
+  color: #ffffff66;
+}
+
+.item_name_22{
+  color: white;
+}
+
+.item_address_22{
+  color: black;
+}
+
+.item_address_5544{
+  text-align: center;
+  margin: auto;
+}
+
+.tableitems {
+  color: white;
+  font-family: poppins;
+  border: 2px solid #fff;
+  width: 23rem;
+}
+
+th {
+  padding: 15px 10px;
+}
+
+td {
+  padding: 0px 10px;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+
+  .login_panel_box11 {
+    width: 19rem;
+    height: 13rem;
+    background-image: linear-gradient(180deg, #f0850699, #e4c019ad);
+    border-radius: 15px;
+    box-shadow: 7px 12px 14px 10px #0000004f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="password"] {
+  display: flex;
+  margin: auto;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 14rem;
+}
+
+input[type="password"]::placeholder {
+  color: #d6d2d2;
+}
+}
