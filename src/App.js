@@ -15,11 +15,21 @@ const App = () => {
 
   const handleLogin = () => {
     // Replace 'admin' with your desired password
-    if (password === 'admin') {
-      setLoggedIn(true);
-    } else {
-      alert('Invalid password!');
-    }
+    const loginData = {
+      password: password
+    };
+    axios.post('https://redjuice-api.onrender.com/api/v1/admin-auth', loginData)
+      .then(res => {
+        console.log(res.data.authenticated);
+        if (res.data.authenticated == true) {
+          setLoggedIn(true);
+        } else {
+          alert('Invalid password!');
+        }
+      })
+      .catch(error => {
+        console.error('Error posting data: ', error);
+      });
   };
 
   const handleSubmit = (e) => {
